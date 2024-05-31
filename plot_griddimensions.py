@@ -45,8 +45,8 @@ def main(
         "yini",
     ],
     dynamicquantities: list = ["numax", "dnuscal"],
-    points: int = 6,
-    zoom: int = 4,
+    points: int = 8,
+    zoom: int = 2,
 ):
     assert os.path.exists(gridfile)
     assert gridfile.endswith(".hdf5")
